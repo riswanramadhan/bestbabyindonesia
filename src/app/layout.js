@@ -13,9 +13,12 @@ const nunito = Nunito({
 export const metadata = {
   title: 'Best Baby Indonesia',
   description: 'Kompetisi Foto & Pengembangan Bakat Anak',
+
+  verification: {
+    google: "xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo",
+  },
 };
 
-<meta name="google-site-verification" content="xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo" />
 
 export default function RootLayout({ children }) {
   return (
