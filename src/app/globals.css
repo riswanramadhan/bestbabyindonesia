@@ -168,7 +168,7 @@ img { max-width: 100%; display: block; }
         /* Mobile / tablet breakpoint: hide center links, show hamburger and converted mobile menu */
         @media (max-width: 992px) {
             /* keep nav-center as positioning context for the mobile menu */
-            .nav-center { position: relative; }
+            .nav-center { position: relative; } 
             .nav-pill { padding: 8px 12px; }
             /* hide desktop CTA on small screens */
             .desktop-cta { display: none !important; }

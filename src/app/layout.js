@@ -15,6 +15,8 @@ export const metadata = {
   description: 'Kompetisi Foto & Pengembangan Bakat Anak',
 };
 
+<meta name="google-site-verification" content="xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo" />
+
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
