@@ -86,7 +86,7 @@ export default function Hero() {
           <p style={{ fontSize: '1.1rem', color: 'var(--text-light)', marginBottom: '30px', maxWidth: '90%' }}>
             Platform kompetisi foto anak dan pengembangan bakat tingkat nasional. Terpercaya, Aman, dan Penuh Keceriaan.
           </p>
-          <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
+          <div className="hero-cta">
             <a href="https://wa.me/message/MPXPQ7CDMRG6O1" className="btn btn-primary"><i className="fa-brands fa-whatsapp"></i> Daftar Kontes</a>
             <a href="#programs" className="btn btn-secondary">Lihat Program</a>
           </div>

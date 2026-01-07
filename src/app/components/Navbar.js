@@ -37,8 +37,8 @@ export default function Navbar() {
               {/* Mobile CTA shown inside hamburger menu */}
               <li className="mobile-cta">
                 <a href="https://wa.me/message/MPXPQ7CDMRG6O1" className="btn btn-cta" onClick={() => setIsOpen(false)}>
-                  <i className="fa-brands fa-whatsapp"></i>
-                  <span>Daftar Sekarang</span>
+                  <i className="fa-brands fa-whatsapp" style={{marginRight: '0.5rem', color: 'white'}}></i>
+                  <span style={{color: 'white'}}>Daftar Sekarang</span>
                 </a>
               </li>
             </ul>
